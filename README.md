@@ -5,7 +5,7 @@ This mod offers an alternate path for Lawful Good, Neutral Good, Chaotic Good & 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
 ## FAQ
-### Q: How does this connect to *Lunia for Good Parties*?
+### Q: How does this connect to [Lunia for Good Parties](https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties)?
 
 A: The Pursuit of Justice is a prequel to LFGP. Once it's completed, I'll update Lunia with variables that take your TPoJ actions into account (unlocking a final confrontation with Dorn). 
 
