@@ -1,4 +1,4 @@
-# The Pursuit of Justice
+# The Pursuit of Justice (for BG2EE or EET)
 
 This mod offers an alternate path for Lawful Good, Neutral Good, Chaotic Good & Lawful Neutral characters (with a reputation of 14 or higher) to complete Dorn's SOA quest *(Resurrection Gorge)* **without** having him in the party. 
 
