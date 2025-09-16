@@ -1,0 +1,9 @@
+/* rip bollard it's been real */
+IF
+Global("bfsdornyeeted","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("bfsdornyeeted","GLOBAL",1)
+ActionOverride("DORN",DestroySelf())
+Continue()
+END
