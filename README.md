@@ -1,3 +1,5 @@
+# THIS MOD IS NOT EVEN AT A PRE-ALPHA STAGE YET. IT HAS NO CONTENT. DO NOT INSTALL. 
+
 ![A map of Resurrection Gorge, the area from Dorn's SOA quest](https://static.wikia.nocookie.net/baldursgategame/images/5/58/Resurrection_Gorge_BG2EE.png/revision/latest/scale-to-width-down/1000?cb=20220129195022)
 
 # The Pursuit of Justice (for BG2EE or EET)
