@@ -1,0 +1,16 @@
+/* removing dorn within the area if reqs are met */
+IF
+!InParty("DORN")
+Global("bfsdornyeeted","GLOBAL",0)
+ReputationGT(Player1,16)
+OR(4)
+        Alignment(Player1,LAWFUL_GOOD)
+        Alignment(Player1,NEUTRAL_GOOD)
+        Alignment(Player1,CHAOTIC_GOOD)
+        Alignment(Player1,LAWFUL_NEUTRAL)
+THEN
+RESPONSE #100
+SetGlobal("bfsdornyeeted","GLOBAL",1)
+ActionOverride("DORN",DestroySelf())
+Continue()
+END

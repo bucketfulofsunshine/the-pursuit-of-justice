@@ -1,0 +1,26 @@
+/* messenger timer */ 
+IF
+  Global("bfhelmitemessenger","GLOBAL",0)
+  !Global("Chapter","GLOBAL",4)
+  !Global("Chapter","GLOBAL",5)
+  ReputationGT(Player1,16)
+OR(4)
+        Alignment(Player1,LAWFUL_GOOD)
+        Alignment(Player1,NEUTRAL_GOOD)
+        Alignment(Player1,CHAOTIC_GOOD)
+        Alignment(Player1,LAWFUL_NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("bfhelmitemessengerarrives","GLOBAL",TWO_HOURS)
+    SetGlobal("bfhelmitemessenger","GLOBAL",1)
+END
+
+IF
+  Global("bfhelmitemessenger","GLOBAL",1)
+  GlobalTimerExpired("bfhelmitemessengerarrives","GLOBAL")
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    CreateCreatureObject("bfmes",Player1,0,0,0)
+    SetGlobal("bfhelmitemessenger","GLOBAL",2)
+END
