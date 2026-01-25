@@ -1,8 +1,0 @@
-IF
-Global("BFSPaladinsSpawn","OH5300",0)
-Global("bfspursuitaccepted","GLOBAL",1)
-THEN
-RESPONSE #100
-SetGlobal("BFSPaladinsSpawn","OH5300",1)
-Continue()
-END
