@@ -1,0 +1,84 @@
+BACKUP ~TPoJ/backup~
+SUPPORT ~bucketfulofsunshine~
+VERSION ~nightly~
+
+AUTO_TRA ~TPoJ/tra/%s~
+
+LANGUAGE ~English~
+         ~english~
+         ~TPoJ/tra/english/Journal.tra~
+
+BEGIN ~The Pursuit of Justice~
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod requires BG2EE or EET~
+
+/* CamDawg's code for State.ids */
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+/* journal entries */
+ADD_JOURNAL TITLE (@9000) @9001 USING ~%MOD_FOLDER%/tra/english/Journal.tra~
+
+/* area adjustments */
+EXTEND_BOTTOM ~AR0900.bcs~ ~%MOD_FOLDER%/area/AR0900.baf~
+EXTEND_BOTTOM ~OH5300.bcs~ ~%MOD_FOLDER%/area/OH5300.baf~
+
+/* script adjustments */
+// oh5300
+COPY_EXISTING ~OH5300.BCS~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(Global("OHD_Camp_hostile","oh5300",1)\)~
+                      ~!Global("bfspursuitaccepted","GLOBAL",1) \1~
+    REPLACE_TEXTUALLY ~\(Dead("OHDTERP")\)~
+                      ~!Global("bfspursuitaccepted","GLOBAL",1) \1~					  
+END
+BUT_ONLY
+
+/* creature files */ 
+COPY ~%MOD_FOLDER%/cre~ ~override~
+
+/* sounds */
+COPY ~%MOD_FOLDER%/sounds~ ~override~
+
+// messenger
+COPY ~%MOD_FOLDER%/cre/bfmes.cre~ ~override~
+SAY NAME1 ~Messenger~
+SAY NAME2 ~Messenger~
+
+COPY ~%MOD_FOLDER%/cre/bfhsen.cre~ ~override~
+SAY NAME1 ~Tennek~
+SAY NAME2 ~Tennek~
+
+/* helmite messenger spawn timer */
+ACTION_FOR_EACH var IN ~AR0020~ ~AR0300~ ~AR0400~ ~AR0500~ ~AR0700~ ~AR0800~ ~AR0900~ ~AR1000~ ~AR1100~ ~AR2000~ BEGIN
+  EXTEND_BOTTOM "%var%.bcs" ~%MOD_FOLDER%/timers/bfmest.baf~
+END
+
+/* scripts */ 
+COMPILE ~%MOD_FOLDER%/scripts~
+COMPILE ~%MOD_FOLDER%/timers~
+COMPILE ~%MOD_FOLDER%/cutscenes~
+
+/* dialogues */
+COMPILE ~%MOD_FOLDER%/d~
+
+/* items */
+/* helmite letter */
+COPY ~%MOD_FOLDER%/items/bfhlt.ITM~ ~override~
+SAY 0x08 ~Helmite Summons~
+SAY 0x0c ~Helmite Summons~
+SAY 0x50 ~<CHARNAME>,
+
+I write to you as a servant of Torm, and as one presently working in tandem with the faithful of Helm. Word of your valour has reached us, and we are heartened by the good deeds you have performed.
+
+A foul murder has occurred within the halls of the Radiant Heart, one that tests the resolve of all who stand against darkness. The Helmites have requested your aid in this matter, for we believe a smaller, more discreet party may fare better than a host in confronting such evil.
+
+Enclosed you will find directions to their camp. I trust that you will answer this call with the steadfast courage you have shown time and again.
+
+Yours in duty and faith,
+Bollard Firejaw~
+
+/* make letter conversable */
+OUTER_SET label = RESOLVE_STR_REF(~read~)
+APPEND ~ITEMDIAL.2da~
+~bfhlt %label% bfhlt~
+UNLESS ~bfhlt~
