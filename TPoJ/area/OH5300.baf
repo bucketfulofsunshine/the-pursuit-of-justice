@@ -1,9 +1,0 @@
-IF
-Global("BFSPaladinSpawn","OH5300",0)
-// Global("bfspursuitaccepted","GLOBAL",1) /* add later after letter */ 
-THEN
-RESPONSE #100
-SetGlobal("BFSPaladinSpawn","OH5300",1)
-CreateCreature("BFBOL",[846.1177],NE)
-Continue()
-END
