@@ -1,0 +1,18 @@
+/* pursuit of justice */
+IF
+    Global("bfspursuitaccepted","GLOBAL",1)
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        CreateCreature("BFYARR",[2202.635],SW)  // Yarrow
+        FaceObject(Player1)
+        Deactivate("BFYARR")  // Yarrow
+        CreateVisualEffectObject("SPWOOD","BFYARR")  // Yarrow
+        Wait(4)
+        CreateVisualEffectObject("SPPOWATK","BFYARR")  // Yarrow
+        Activate("BFYARR")  // Yarrow
+        ActionOverride("OHDTREAD",DestroyItem("MINHP1"))  // No such index
+        Wait(2)
+        EndCutSceneMode()
+        ActionOverride("BFYARR",StartDialogueNoSet([PC]))
+END

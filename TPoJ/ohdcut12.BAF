@@ -1,0 +1,27 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        Wait(1)
+        DisplayStringHead("ohdyarr",95171)  // There you are, <PRO_RACE>! Through the tree, I could sense your dealings with the fiend, and he yet lives! What foolish bargain have you struck with him?
+        Wait(4)
+        CreateCreature("ohdxach",[859.275],S)  // Xachrimos
+        CreateVisualEffectObject("SPPOWRRD","ohdxach")  // Xachrimos
+        Wait(1)
+        ReallyForceSpellRES("ohdxdis","ohdxach")  // Invisibility Purge
+        Wait(2)
+        DisplayStringHead("ohdxach",95172)  // Muahahahahahahahahahaa!
+        Wait(1)
+        CreateVisualEffectObject("SPIMPFR","ohdyarr")  // Yarrow
+        Wait(2)
+        CreateVisualEffectObject("CALLIGH","ohdyarr")  // Yarrow
+        Wait(1)
+        CreateVisualEffectObject("SPDEATH3","ohdyarr")  // Yarrow
+        Kill("ohdyarr")  // Yarrow
+        Wait(3)
+        SmallWait(1)
+        EndCutSceneMode()
+        ActionOverride("OHDXACH",StartDialogueNoSet(Player1))
+END
+
