@@ -9,17 +9,9 @@ This mod offers an alternate path for Lawful Good, Neutral Good, Chaotic Good & 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
 ## FAQ
-### Q: How does this connect to [Lunia for Good Parties](https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties)?
-
-A: The Pursuit of Justice is a prequel to LFGP. Once it's completed, I'll update Lunia with variables that take your TPoJ actions into account (unlocking a final confrontation with Dorn). 
-
 ### Q: When does the quest start?
 
-A: You’ll be summoned by Bollard Firejaw at the Helmite Camp. He needs your help tracking down a murderous half-orc who slaughtered guests at a wedding he recently officiated.
-
-### Q: Are you breaking all the things again?
-
-A: Yes, possibly? Installing this mod will disable Dorn's spawn & recruitment in the Temple District. Since he serves as the main villain, he cannot - in any capacity - join the party anymore. I apologize in advance.
+A: You can't have killed Dorn or let him join the party. Then, upon reaching the required reputation, a variable will be set & a messenger will arrive. After speaking with the messenger, the Helmite Camp will unlock on the world map. 
 
 ### Q: Any other notes?
 
