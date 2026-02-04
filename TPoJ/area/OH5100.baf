@@ -1,0 +1,53 @@
+/* pursuit of justice */ 
+/* summons creatures */
+IF
+    Global("bfssummon","OH5100",0)  
+	Global("bfspursuitaccepted","GLOBAL",1)
+THEN
+    RESPONSE #100
+        SetGlobal("bfssummon","OH5100",1)  
+        SetGlobal("OH5100_START","GLOBAL",1)
+        SetGlobal("OH5100_START","GLOBAL",1)
+        CreateCreature("BFSUMM",[753.3276],SSW)  // Summerheigh
+        CreateCreature("BFTREAD",[2129.505],S)  // Treadsoft
+        CreateCreature("OHDANIM1",[2257.2556],NW)  // Cave Bear
+        CreateCreature("OHDANIM3",[3524.2906],W)  // Panther
+        CreateCreature("OHDANIM2",[3610.2952],SW)  // Wolf
+        CreateCreature("OHDANIM3",[3659.2873],SW)  // Panther
+        CreateCreature("OHDANIM2",[3712.2931],W)  // Wolf
+        CreateCreature("OHDANIM1",[3847.2981],SW)  // Cave Bear
+        CreateCreature("OHDNYMPH",[3864.2914],SW)  // Nymph
+        CreateCreature("OHDANIM4",[3927.3030],S)  // Small Spider
+        CreateCreature("OHDANIM2",[3152.221],W)  // Wolf
+        CreateCreature("OHDANIM2",[3193.283],SW)  // Wolf
+        CreateCreature("OHDANIM3",[3081.317],W)  // Panther
+        CreateCreature("OHDANIM4",[3163.360],W)  // Small Spider
+        CreateCreature("OHDANIM4",[3196.344],SW)  // Small Spider
+        CreateCreature("DEER01",[791.2261],E)  // Deer
+        CreateCreature("DEER01",[119.3423],S)  // Deer
+        CreateCreature("DEER01",[3965.3358],S)  // Deer
+        CreateCreature("DEER01",[4376.1003],W)  // Deer
+        CreateCreature("SQUIRL",[631.1452],W)  // Squirrel
+        CreateCreature("SQUIRL",[1073.2855],W)  // Squirrel+
+        CreateCreature("SQUIRL",[4701.2516],W)  // Squirrel
+        CreateCreature("SQUIRL",[696.591],W)  // Squirrel
+        CreateCreature("SQUIRL",[2560.1256],W)  // Squirrel
+        CreateCreature("RABBIT",[1531.2541],W)  // Rabbit
+        CreateCreature("RABBIT",[3406.3515],N)  // Rabbit
+        CreateCreature("RABBIT",[2255.33],N)  // Rabbit
+        CreateCreature("CATLIM01",[4354.897],E)  // Mountain Lion
+        CreateCreature("CATLIM01",[2986.3433],E)  // Mountain Lion
+        CreateCreature("CATLIM01",[4245.1732],E)  // Mountain Lion
+		Continue()
+END
+
+IF 
+  Global("bfazodefeat","GLOBAL",1) 
+  Global("bfremovenpcs","GLOBAL",0) 
+THEN
+  RESPONSE #100
+  SetGlobal("bfremovenpcs","GLOBAL",1) 
+  ActionOverride("BFTREAD",DestroySelf())
+  ActionOverride("BFYARR",DestroySelf())
+END
+

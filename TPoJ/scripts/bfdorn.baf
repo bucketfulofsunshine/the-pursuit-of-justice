@@ -1,0 +1,9 @@
+IF
+  Global("dornseesplayer","LOCALS",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("dornseesplayer","LOCALS",1)
+    MoveToObject([PC])
+    StartDialogueNoSet(Player1)
+END
