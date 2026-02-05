@@ -1,0 +1,61 @@
+/* the pursuit of justice */ 
+
+/* sets variable */
+IF
+    Global("bfspursuitaccepted","GLOBAL",1)
+	Global("OHD_ritual","OH5120",0)  // Dorn - Resurrection Gorge Tree Interior
+    PartyHasItem("OHDSUMS1")  // Winterbrook's Summoning Stone
+    PartyHasItem("OHDSUMS2")  // Fil's Summoning Stone
+    PartyHasItem("OHDSUMS3")  // Xachrimos's Summoning Stone
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_ritual","OH5120",1)  // Dorn - Resurrection Gorge Tree Interior
+        SetGlobal("OHD_PLOT","GLOBAL",7)
+        TakePartyItem("ohdsums1")  // Winterbrook's Summoning Stone
+        DestroyItem("ohdsums1")  // Winterbrook's Summoning Stone
+        TakePartyItem("ohdsums2")  // Fil's Summoning Stone
+        DestroyItem("ohdsums2")  // Fil's Summoning Stone
+        TakePartyItem("ohdsums3")  // Xachrimos's Summoning Stone
+        DestroyItem("ohdsums3")  // Xachrimos's Summoning Stone
+END
+
+/* adds dorn */
+IF
+Global("BFSDornSpawn","OH5120",0)
+Global("bfspursuitaccepted","GLOBAL",1) 
+Global("OHD_ritual","OH5120",1) /* only summons dorn once player has all the stones */
+THEN
+RESPONSE #100
+SetGlobal("BFSDornSpawn","OH5120",1)
+CreateCreature("BFDORN",[744.553],SW)
+Continue()
+END
+
+/* dorn summons azothet */
+IF
+    Dead("BFUGOTH")
+	Global("bfdornsummons","OH5120",0)	
+THEN
+    RESPONSE #100
+        SetGlobal("bfdornsummons","OH5120",1)  
+		DisplayStringHead(Player1,@0)
+		TakePartyItem("ohdsw2ha") 
+		DestroyItem("ohdsw2ha")
+		GiveItemCreate("ohdsw2hb",Player1,1,0,0)		
+		ActionOverride("bfdorn",StartDialogueNoSet(Player1))
+END
+
+/* azothet defeat */
+IF
+    Dead("BFAZOTH")
+	Global("bfazodefeat","GLOBAL",0)	
+THEN
+    RESPONSE #100
+        SetGlobal("bfazodefeat","GLOBAL",1)
+		EraseJournalEntry(@9002) 
+		AddJournalEntry(@9003, QUEST)
+		DisplayStringHead(Player1,@1)
+		TakePartyItem("ohdsw2hb") 
+		DestroyItem("ohdsw2hb")
+		GiveItemCreate("ohdsw2hd",Player1,1,0,0)
+END

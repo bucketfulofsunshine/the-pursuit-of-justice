@@ -1,0 +1,47 @@
+IF
+    Global("OHD_postaz","LOCALS",1)
+THEN
+    RESPONSE #100
+        CreateVisualEffectObject("SPPLANAR",Myself)
+        Wait(2)
+        DestroySelf()
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    OR(2)
+        Global("OHD_ritual","OH5120",10)  // Dorn - Resurrection Gorge Tree Interior
+        Global("OHD_ritual","OH5120",16)  // Dorn - Resurrection Gorge Tree Interior
+    Global("OHD_change","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        CreateVisualEffectObject("mmagich",Myself)
+        Wait(1)
+        Polymorph(CORNUGON)
+        SetGlobal("OHD_change","LOCALS",1)
+        SetInterrupt(TRUE)
+END
+
+IF
+    HPLT("bfugoth",10)  // Ur-Gothoz
+    Global("OHD_ritual","OH5120",8)  // Dorn - Resurrection Gorge Tree Interior
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_ritual","OH5120",9)  // Dorn - Resurrection Gorge Tree Interior
+        ClearAllActions()
+        StartCutSceneMode()
+        StartCutScene("ohdcut9a")
+END
+
+IF
+    HPLT("bfugoth",10)  // Ur-Gothoz
+    Global("OHD_ritual","OH5120",16)  // Dorn - Resurrection Gorge Tree Interior
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_ritual","OH5120",17)  // Dorn - Resurrection Gorge Tree Interior
+        ClearAllActions()
+        StartCutSceneMode()
+        StartCutScene("ohdcut9e")
+END
+
