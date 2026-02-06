@@ -29,4 +29,7 @@ A: You can't have killed Dorn or let him join the party. Then, upon reaching the
 
 ## CREDITS
 
+* [@kaelyn](https://github.com/szaumoor) for code improvements & being an item creation pro. <3 
+* [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. And for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
+* [@zenblack](https://github.com/zenblack) for teaching me how to create custom BAM files. I hope I have done your teachings justice, sensei.
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
