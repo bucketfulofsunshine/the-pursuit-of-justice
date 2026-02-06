@@ -9,7 +9,7 @@ LANGUAGE ~English~
          ~TPoJ/tra/english/Journal.tra~
 		 ~TPoJ/tra/english/pcbarks.tra~
 
-BEGIN ~The Pursuit of Justice~
+BEGIN ~The Pursuit of Justice~ DESIGNATED 0
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod requires BG2EE or EET~
 
 /* CamDawg's code for State.ids */
