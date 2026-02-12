@@ -2,7 +2,7 @@
 
 # The Pursuit of Justice (for BG2EE or EET)
 
-This mod offers an alternate path for Lawful Good, Neutral Good, Chaotic Good & Lawful Neutral characters (with a reputation of 14 or higher) to complete Dorn's SOA quest *(Resurrection Gorge)* **without** having him in the party. 
+This mod offers an alternate path for parties with a reputation of 14 or higher to complete Dorn's SOA quest *(Resurrection Gorge)* **without** having him as a companion. 
 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
@@ -12,16 +12,17 @@ In fact, in this alternate version of events, Dorn himself becomes the villain o
 
 **V1.0 will add**
 - Fully traified dialogue (for translators).
-- A few short sidequests in the Helmite Camp & Resurrection Gorge (with custom items as rewards).
+- EET compatibility. 
 
 ## FAQ
 ### Q: When does the quest start?
 
-A: You can't have killed Dorn or let him join the party. Then, upon reaching the required reputation, a timer will be set & a messenger will arrive two hours later. After speaking with the messenger, the Helmite Camp will unlock on the world map. 
+A: You can't have killed Dorn or let him join the party beforehand. Then, upon reaching the required reputation, a timer will be set & a messenger will arrive two hours later. After speaking with the messenger, the Helmite Camp will unlock on the world map. 
 
 ## CHANGELOG
 
 * **20260205** - V0.9 beta Release. 
+* **20260212** - Small dialogue edits, allows the player to complete 'Turning Over a New Leaf'. 
 
 ## LICENSING
 
@@ -29,7 +30,7 @@ A: You can't have killed Dorn or let him join the party. Then, upon reaching the
 
 ## CREDITS
 
-* [@kaelyn](https://github.com/szaumoor) for code improvements & being an item creation pro. <3 
+* [@kaelyn](https://github.com/szaumoor) for code improvements. <3 
 * [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. And for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
 * [@zenblack](https://github.com/zenblack) for teaching me how to create custom BAM files. I hope I have done your teachings justice, sensei.
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
