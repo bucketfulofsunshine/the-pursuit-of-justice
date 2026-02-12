@@ -1,0 +1,15 @@
+@0    = ~Pardon me, <PRO_SIRMAAM>, are you <CHARNAME>?~
+@1    = ~Yes, I am <CHARNAME>. Why do you seek me?~
+@2    = ~That depends on who is asking.~
+@3    = ~You found me. Now speak your piece.~
+@4    = ~I have a message for you, sent by the faithful of Helm.~
+@5    = ~They requested it be delivered from my hands into yours without delay.~
+@6    = ~My brethren would not contact us without cause. Duty demands we honour their summons.~
+@7    = ~So the Helmites think to summon us now? Pay their letter no heed.~
+@8    = ~Do not let personal grievances blind you to what must be done, Anomen.~
+@9    = ~Helmites are not prone to idle correspondence. They have reached out to us, <CHARNAME>, so duty demands we answer.~
+@10   = ~The Helmites maintain balance through their vigilance. When they reach out to those beyond their order, it is usually because dark events are stirring. We would do well to seek them out, <CHARNAME>.~
+@11   = ~Helm's charge is duty and vigilance, is it not? If his followers have reached out to us, I...I hope we can help them.~
+@12   = ~Very well. I will read their letter.~
+@13   = ~Give it here and be done with it.~
+@14   = ~A good <DAYNIGHT> to you.~

@@ -1,0 +1,79 @@
+/* dorn initiates dialogue */
+IF
+  Global("dornseesplayer","LOCALS",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("dornseesplayer","LOCALS",1)
+    MoveToObject([PC])
+    StartDialogueNoSet(Player1)
+END
+
+/* attack script - default wtasight & anti-paladin gith*/
+IF
+    HPLT(Myself,30)
+    HaveSpell(BLACKGUARD_ABSORB_HEALTH)  
+    See([GOODCUTOFF])
+    !StateCheck(LastSeenBy(Myself),STATE_NOT_TARGETABLE)
+    !General(LastSeenBy(Myself),UNDEAD)
+    !Race(LastSeenBy(Myself),GOLEM)
+    !HasItemEquiped("CLCK26",LastSeenBy(Myself))  // Cloak of Mirroring
+    CheckStatLT(LastSeenBy(Myself),55,RESISTMAGIC)
+    CheckStatLT(LastSeenBy(Myself),100,MAGICDAMAGERESISTANCE)
+THEN
+    RESPONSE #100
+        Spell(LastSeenBy(Myself),BLACKGUARD_ABSORB_HEALTH)  // SPCL102.SPL (Absorb Health)
+END
+
+IF    
+    HaveSpell(AURA_OF_DESPAIR)  // SPCL103.SPL (Aura of Despair)
+    Range(NearestEnemyOf(Myself),15)
+    Range(SecondNearestEnemyOf(Myself),15)
+    Range(ThirdNearestEnemyOf(Myself),15)
+    CheckStatLT(Myself,50,SPELLFAILUREPRIEST)
+    !StateCheck(Myself,STATE_SILENCED)
+THEN
+    RESPONSE #100
+        Spell(Myself,AURA_OF_DESPAIR)  // SPCL103.SPL (Aura of Despair)
+END
+
+IF
+    HaveSpell(ASSASSIN_POISON)  // SPCL423.SPL (Poison Weapon)
+    !Difficulty(EASIEST)
+    !CheckStat(Myself,4,OFFENSIVE_MODIFIER)
+    !StateCheck(Myself,STATE_SILENCED)
+THEN
+    RESPONSE #100
+        Spell(Myself,ASSASSIN_POISON)  // SPCL423.SPL (Poison Weapon)
+END
+
+IF
+    Heard([ANYONE],111)
+THEN
+    RESPONSE #100
+        MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+    AttackedBy([GOODCUTOFF],DEFAULT)
+    !Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Enemy()
+END
+
+IF
+    ActionListEmpty()
+    See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+    ActionListEmpty()
+    AttackedBy([ANYONE],DEFAULT)
+THEN
+    RESPONSE #100
+        Attack(LastAttackerOf(Myself))
+END

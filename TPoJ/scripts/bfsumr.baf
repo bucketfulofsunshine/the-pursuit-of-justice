@@ -1,0 +1,11 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        CreateCreature("BFVER2",[937.3214],SSW)  
+        Wait(3)		
+		FaceObject(Player1)
+        EndCutSceneMode()
+        ActionOverride("BFVER2",StartDialogueNoSet([PC]))
+END
