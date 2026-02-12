@@ -6,13 +6,13 @@ This mod offers an alternate path for parties with a reputation of 14 or higher 
 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
-**V0.9 beta adds**
+**V0.9.9 beta adds**
 - Players can access & complete Resurrection Gorge as part of a new questline.
 - I'm releasing this version so others can download & test. I've already run through the content twice, but need more testers before dropping V1.0
 
 **V1.0 will add**
-- Fully traified dialogue (for translators).
 - EET compatibility. 
+- Possibly new sidequests in the Helmite Camp & Resurrection Gorge itself. 
 
 ## FAQ
 ### Q: When does the quest start?
@@ -21,8 +21,8 @@ A: You can't have killed Dorn or let him join the party beforehand. Then, upon r
 
 ## CHANGELOG
 
-* **20260205** - V0.9 beta Release. 
-* **20260212** - Small dialogue edits, allows the player to complete 'Turning Over a New Leaf'. 
+* **20260205** - V0.9 beta release. 
+* **20260212** - V0.9.9 beta release. 
 
 ## LICENSING
 
