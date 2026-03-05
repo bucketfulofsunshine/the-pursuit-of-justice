@@ -33,4 +33,5 @@ A: You can't have killed Dorn or let him join the party beforehand. Then, upon r
 * [@kaelyn](https://github.com/szaumoor) for code improvements. <3 
 * [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. And for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
 * [@zenblack](https://github.com/zenblack) for teaching me how to create custom BAM files. I hope I have done your teachings justice, sensei.
+* The lovely folks over on the Beamdog forums who made suggestions on improvements. Particularly [@lavadelvortel / weasel](https://downloads.weaselmods.net/author/admin/) for finding bugs & offering clear solutions. <3
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
