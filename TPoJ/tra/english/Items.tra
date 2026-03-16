@@ -1,0 +1,32 @@
+@2000 = ~Letter from Bollard Firejaw~
+@2001 = ~<CHARNAME>,
+
+I write to you as a servant of Torm, and as one presently working in tandem with the faithful of Helm. Word of your valour has reached us, and we are heartened by the good deeds you have performed.
+
+A foul murder has occurred within the halls of the Radiant Heart, one that tests the resolve of all who stand against darkness. The Helmites have requested your aid in this matter, for we believe a smaller, more discreet party may fare better than a host in confronting such evil.
+
+Enclosed you will find directions to their camp. I trust that you will answer this call with the steadfast courage you have shown time and again.
+
+Yours in duty and faith,
+Bollard Firejaw~
+
+@2010 = ~The Visage~
+@2011 = ~This silver mask has a grotesque face distorted into a grimace. When donned, the eyes pulse with a deep red when the wearer speaks, adding to its unsettling presence. It hums with a variety of magical enchantments, inspiring fear in all who gaze upon it.
+
+STATISTICS:
+
+Equipped abilities:
+– THAC0: +1
+– Saving Throws: +1
+– Immunity to feeblemind, confusion, fear, and charm
+– Protects against critical hits
+
+Charge abilities:
+– Domination once per day (Save vs. Spell at -2 negates)
+  Duration: 8 rounds
+
+– Breathe Acid once per day
+  Damage: 6d6 acid (Save vs. Breath for half)
+  Target must save vs. Death at -4 or fall unconscious for 2 rounds
+
+Weight: 1~
