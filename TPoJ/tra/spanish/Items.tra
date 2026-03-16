@@ -1,0 +1,32 @@
+@2000 = ~Carta de Bollard Firejaw~
+@2001 = ~<CHARNAME>,
+
+Te escribo como servidor de Torm y como alguien que actualmente trabaja junto a los fieles de Helm. Las noticias de tu valentía han llegado hasta nosotros y nos reconfortan las buenas acciones que has realizado.
+
+Un atroz asesinato ha tenido lugar en los salones del Corazón Radiante, uno que pone a prueba la determinación de todos los que se alzan contra la oscuridad. Los helmítas han solicitado tu ayuda en este asunto, pues creemos que un grupo pequeño y discreto puede tener más éxito que una gran fuerza al enfrentarse a un mal como este.
+
+Adjuntas encontrarás indicaciones para llegar a su campamento. Confío en que responderás a este llamado con la firme valentía que has demostrado una y otra vez.
+
+Tuyo en deber y fe,
+Bollard Firejaw~
+
+@2010 = ~El Visaje~
+@2011 = ~Esta máscara de plata muestra un rostro grotesco retorcido en una mueca. Cuando se la coloca, los ojos palpitan con un profundo brillo rojo cuando el portador habla, lo que aumenta su inquietante presencia. Vibra con diversos encantamientos mágicos que inspiran temor en todos los que la contemplan.
+
+ESTADÍSTICAS:
+
+Habilidades al equiparse:
+– THAC0: +1
+– Tiradas de salvación: +1
+– Inmunidad a debilidad mental, confusión, miedo y hechizar
+– Protege contra golpes críticos
+
+Habilidades con carga:
+– Dominación una vez al día (Tirada de salvación contra conjuros a -2 para evitarlo)
+  Duración: 8 asaltos
+
+– Aliento ácido una vez al día
+  Daño: 6d6 de ácido (Tirada de salvación contra aliento para mitad)
+  El objetivo debe superar una tirada contra muerte a -4 o quedará inconsciente durante 2 asaltos
+
+Peso: 1~
