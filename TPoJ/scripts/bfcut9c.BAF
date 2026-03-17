@@ -1,0 +1,19 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        ScreenShake([30.30],5)
+        MoveViewPoint([742.482],100)
+        CreateVisualEffect("SPSUMGTE",[742.482])
+        Wait(2)
+        CreateVisualEffect("SPFIREPI",[742.482])
+        Wait(2)
+        CreateCreature("BFAZOTH",[742.482],SSW)  // Azothet
+		ActionOverride("BFAZOTH",Polymorph(MARILITH))
+        ActionOverride("BFAZOTH",CreateVisualEffectObject("SPHEALIN",Myself))
+        Wait(3)
+        EndCutSceneMode()
+        ActionOverride("bfazoth",StartDialogueNoSet(Player1))
+END
+

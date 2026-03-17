@@ -1,0 +1,33 @@
+IF
+    Range([PC],30)
+    Global("OHD_START_TREAD","OH5100",0)  // Dorn - Resurrection Gorge
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_START_TREAD","OH5100",1)  // Dorn - Resurrection Gorge
+        DisplayStringHead(Myself,75740)  // Stay back! The tree must be contained!
+        Continue()
+END
+
+IF
+    Range([PC],15)
+    GlobalLT("OHD_START_TREAD","OH5100",2)  // Dorn - Resurrection Gorge
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_START_TREAD","OH5100",2)  // Dorn - Resurrection Gorge
+        Enemy()
+        DisplayStringHead(Myself,75741)  // I tried to warn them, mistress, but they didn't listen!
+        MoveToObject(NearestEnemyOfType([PC]))
+END
+
+IF
+    HPPercentLT(Myself,50)
+    Global("OHD_START_TREAD2","OH5100",0)  // Dorn - Resurrection Gorge
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_START_TREAD2","OH5100",1)  // Dorn - Resurrection Gorge
+        ClearAllActions()
+        ChangeEnemyAlly("BFTREAD",NEUTRAL)  // Treadsoft
+        StartCutSceneMode()
+        StartCutScene("ohdcut07")
+END
+
