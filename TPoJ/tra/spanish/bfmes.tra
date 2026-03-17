@@ -1,0 +1,15 @@
+@0    = ~Disculpadme, <PRO_SIRMAAM>, ¿sois <CHARNAME>?~
+@1    = ~Sí, soy <CHARNAME>. ¿Por qué me buscáis?~
+@2    = ~Eso depende de quién pregunte.~
+@3    = ~Ya me has encontrado. Ahora habla.~
+@4    = ~Tengo un mensaje para vos, enviado por los fieles de Helm.~
+@5    = ~Solicitaron que fuera entregado de mis manos a las vuestras sin demora.~
+@6    = ~Mis hermanos de fe no nos contactarían sin motivo. El deber exige que atendamos su llamada.~
+@7    = ~¿Así que ahora los helmítas pretenden convocarnos? No hagas caso a su carta.~
+@8    = ~No dejes que los agravios personales te cieguen ante lo que debe hacerse, Anomen.~
+@9    = ~Los helmítas no suelen enviar correspondencia por capricho. Han acudido a nosotros, <CHARNAME>, así que el deber exige que respondamos.~
+@10   = ~Los helmítas mantienen el equilibrio mediante su vigilancia. Cuando recurren a quienes están fuera de su orden, suele ser porque se agitan fuerzas oscuras. Haríamos bien en buscarlos, <CHARNAME>.~
+@11   = ~La carga de Helm es el deber y la vigilancia, ¿no es así? Si sus seguidores han recurrido a nosotros, yo... espero que podamos ayudarlos.~
+@12   = ~Muy bien. Leeré su carta.~
+@13   = ~Dámela y acabemos con esto.~
+@14   = ~Que Helm vele por vosotros.~

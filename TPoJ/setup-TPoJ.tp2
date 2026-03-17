@@ -7,6 +7,7 @@ AUTO_TRA ~TPoJ/tra/%s~
 LANGUAGE ~English~
          ~english~
          ~TPoJ/tra/english/Journal.tra~
+		 ~TPoJ/tra/english/Items.tra~
 		 ~TPoJ/tra/english/pcbarks.tra~
 		 ~TPoJ/tra/english/bfazoth.tra~
 		 ~TPoJ/tra/english/bfbol.tra~
@@ -19,6 +20,23 @@ LANGUAGE ~English~
 		 ~TPoJ/tra/english/bfwntrb.tra~
 		 ~TPoJ/tra/english/bfxach.tra~ 
 		 ~TPoJ/tra/english/bfyarr.tra~
+		 
+LANGUAGE ~Espanol (By:XsidoGamer)~
+         ~spanish~
+         ~TPoJ/tra/spanish/Journal.tra~
+		 ~TPoJ/tra/spanish/Items.tra~
+		 ~TPoJ/tra/spanish/pcbarks.tra~
+		 ~TPoJ/tra/spanish/bfazoth.tra~
+		 ~TPoJ/tra/spanish/bfbol.tra~
+		 ~TPoJ/tra/spanish/bfdorn.tra~
+		 ~TPoJ/tra/spanish/bfhsen.tra~
+		 ~TPoJ/tra/spanish/bfmes.tra~
+		 ~TPoJ/tra/spanish/bfsumm.tra~
+		 ~TPoJ/tra/spanish/bfver2.tra~ 
+		 ~TPoJ/tra/spanish/bfvern.tra~ 
+		 ~TPoJ/tra/spanish/bfwntrb.tra~
+		 ~TPoJ/tra/spanish/bfxach.tra~ 
+		 ~TPoJ/tra/spanish/bfyarr.tra~
 
 BEGIN ~The Pursuit of Justice~ DESIGNATED 0
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod requires BG2EE or EET~
@@ -126,39 +144,12 @@ COMPILE ~%MOD_FOLDER%/d~
 /* items */
 /* bollard letter */
 COPY ~%MOD_FOLDER%/items/bfhlt.ITM~ ~override~
-SAY 0x08 ~Letter from Bollard Firejaw~
-SAY 0x0c ~Letter from Bollard Firejaw~
-SAY 0x50 ~<CHARNAME>,
-
-I write to you as a servant of Torm, and as one presently working in tandem with the faithful of Helm. Word of your valour has reached us, and we are heartened by the good deeds you have performed.
-
-A foul murder has occurred within the halls of the Radiant Heart, one that tests the resolve of all who stand against darkness. The Helmites have requested your aid in this matter, for we believe a smaller, more discreet party may fare better than a host in confronting such evil.
-
-Enclosed you will find directions to their camp. I trust that you will answer this call with the steadfast courage you have shown time and again.
-
-Yours in duty and faith,
-Bollard Firejaw~
+SAY 0x08 @2000
+SAY 0x0c @2000
+SAY 0x50 @2001
 
 /* the visage */
 COPY ~%MOD_FOLDER%/items/bfdmk.ITM~ ~override~
-SAY 0x08 ~The Visage~
-SAY 0x0c ~The Visage~
-SAY 0x50 ~This silver mask has a grotesque face distorted into a grimace. When donned, the eyes pulse with a deep red when the wearer speaks, adding to its unsettling presence. It hums with a variety of magical enchantments, inspiring fear in all who gaze upon it.
-
-STATISTICS:
-
-Equipped abilities: 
-– THAC0: +1
-– Saving Throws: +1
-– Immunity to feeblemind, confusion, fear, and charm
-– Protects against critical hits
-
-Charge abilities: 
-– Domination once per day (Save vs. Spell at -2 negates)
-  Duration: 8 rounds
-
-– Breathe Acid once per day
-  Damage: 6d6 acid (Save vs. Breath for half)
-  Target must save vs. Death at -4 or fall unconscious for 2 rounds
-
-Weight: 1~
+SAY 0x08 @2010
+SAY 0x0c @2010
+SAY 0x50 @2011
