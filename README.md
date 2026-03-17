@@ -6,7 +6,7 @@ This mod offers an alternate path for parties with a reputation of 14 or higher 
 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
-**V0.9.9 beta adds**
+**V0.9.9.1 beta adds**
 - Players can access & complete Resurrection Gorge as part of a new questline.
 - I'm releasing this version so others can download & test. I've already run through the content twice, but need more testers before dropping V1.0
 
@@ -23,6 +23,7 @@ A: You can't have killed Dorn or let him join the party beforehand. Then, upon r
 
 * **20260205** - V0.9 beta release. 
 * **20260212** - V0.9.9 beta release. 
+* **20260317** - V0.9.9.1 beta release.
 
 ## LICENSING
 
@@ -30,8 +31,8 @@ A: You can't have killed Dorn or let him join the party beforehand. Then, upon r
 
 ## CREDITS
 
+* [@omegazeroxiii](https://github.com/OmegaZeroXIII) for the spanish translation. 
 * [@kaelyn](https://github.com/szaumoor) for code improvements. <3 
 * [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. And for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
-* [@zenblack](https://github.com/zenblack) for teaching me how to create custom BAM files. I hope I have done your teachings justice, sensei.
 * The lovely folks over on the Beamdog forums who made suggestions on improvements. Particularly [@lavadelvortel / weasel](https://downloads.weaselmods.net/author/admin/) for finding bugs & offering clear solutions. <3
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
