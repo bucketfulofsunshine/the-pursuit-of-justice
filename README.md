@@ -1,29 +1,30 @@
 ![A map of Resurrection Gorge, the area from Dorn's SOA quest](https://static.wikia.nocookie.net/baldursgategame/images/5/58/Resurrection_Gorge_BG2EE.png/revision/latest/scale-to-width-down/1000?cb=20220129195022)
 
-# The Pursuit of Justice (for BG2EE or EET)
+# The Pursuit of Justice (for BG2EE)
 
 This mod offers an alternate path for parties with a reputation of 14 or higher to complete Dorn's SOA quest *(Resurrection Gorge)* **without** having him as a companion. 
 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
-**V0.9.9.1 beta adds**
-- Players can access & complete Resurrection Gorge as part of a new questline.
-- I'm releasing this version so others can download & test. I've already run through the content twice, but need more testers before dropping V1.0
-
-**V1.0 will add**
-- EET compatibility. 
-- Possibly new sidequests in the Helmite Camp & Resurrection Gorge itself. 
+**V1.0 adds**
+- Players can access & complete Resurrection Gorge as part of a new questline
 
 ## FAQ
 ### Q: When does the quest start?
 
 A: You can't have killed Dorn or let him join the party beforehand. Then, upon reaching the required reputation, a timer will be set & a messenger will arrive two hours later. After speaking with the messenger, the Helmite Camp will unlock on the world map. 
 
+### Q: You mentioned new sidequests before?
+
+A: I've decided to forego adding them. At its core, this mod is about accessing the vanilla Dorn storyline without requiring him as an NPC.
+
+### Q: EET compatiblity? 
+
+A: I don't have a working EET install & cannot test it myself. To my knowledge, this mod should be safe & functional, but I can't verify that myself. 
+
 ## CHANGELOG
 
-* **20260205** - V0.9 beta release. 
-* **20260212** - V0.9.9 beta release. 
-* **20260317** - V0.9.9.1 beta release.
+* **20260331** - V1.0 release. 
 
 ## LICENSING
 
