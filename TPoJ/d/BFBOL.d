@@ -20,6 +20,7 @@ END
 ++ @8 /* You have my attention, Bollard. What matter weighs upon you? */ EXTERN bfbol bfs.bollard2
 ++ @9 /* You asked for me in your letter. What do you need? */ EXTERN bfbol bfs.bollard2
 ++ @10 /* I am no stranger to dark deeds. Tell me what happened. */ EXTERN bfbol bfs.bollard2
+++ @31 /* You summoned me because you need a problem solved. I am capable of that. Speak plainly. */ EXTERN bfbol bfs.bollard2
 
 CHAIN bfbol bfs.bollard2
 @11 /* We stand among the faithful of Helm because I owe them my life. */
@@ -29,6 +30,7 @@ END
 ++ @14 /* Who would commit murder in such a sacred place? */ EXTERN bfbol bfs.bollard3
 ++ @15 /* Then we must act quickly, before anyone else is harmed. */ EXTERN bfbol bfs.bollard3
 + ~OR(2) Class(Player1,PALADIN) Class(Player1,CLERIC)~ + @16 /* Such sacrilege cannot go unanswered. */ EXTERN bfbol bfs.bollard3
+++ @36 /* I fail to see how this concerns me. */ EXTERN bfbol bfs.bollard3
 
 CHAIN bfbol bfs.bollard3
 @17 /* The murderer is a half-orc blackguard named Dorn Il-Khan.  */
@@ -37,6 +39,14 @@ CHAIN bfbol bfs.bollard3
 END
 ++ @20 /* Do you know where he has gone? */ EXTERN bfbol bfs.bollard4
 + ~Class(Player1,PALADIN)~ + @21 /* I will see him answer for every life he took. */ EXTERN bfbol bfs.bollard4
++ ~!Alignment(Player1,LAWFUL_GOOD) !Alignment(Player1,NEUTRAL_GOOD) !Alignment(Player1,CHAOTIC_GOOD)~ + @32 /* And the reward for bringing him in, what does the Order offer? */ EXTERN bfbol bfs.bollard4reward
+
+CHAIN bfbol bfs.bollard4reward
+@33 /* The Order will see you compensated for your efforts. Payment in gold along with recognition among those who value such things. */
+== BFBOL @34 /* I will not pretend I like your mercantile manner, <CHARNAME>, but our need is great. See the task done, that is all I ask. */
+END
+++ @35 /* Then let us discuss the particulars. Where has he gone? */
+EXTERN bfbol bfs.bollard4
 
 CHAIN bfbol bfs.bollard4
 @22 /* His trail leads to an area called Resurrection Gorge. I would have you follow him and bring him to justice. */
@@ -68,4 +78,3 @@ AddXPObject(Player6,12500)
 SetGlobal("bfbollardaddress","LOCALS",2) 
 EscapeArea()~ 
 EXIT
-

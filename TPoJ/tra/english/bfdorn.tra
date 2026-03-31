@@ -12,7 +12,7 @@
 @11   = ~Dorn, your bloody path ends here. Surrender and you may yet stand trial.~
 @12   = ~Murderer! Bollard's injuries, the death of innocents within the Radiant Heart, you will die for your crimes!~
 @13   = ~I admire your ambition, but I don't kneel to rivals. Whatever power you seek to gain will be mine once you're dead.~
-@14   = ~We travelled together along the Sword Coast, Dorn. But your bloodthirst ends here.~
+@14   = ~We travelled together along the Sword Coast, Dorn. I did not think it would end like this.~
 @15   = ~This ends one way, Dorn. We can make it quick or messy.~
 @16   = ~This ritual defiles the gorge. I will seal the portal and restore balance to this land.~
 @17   = ~By my oath, I will see you disarmed and brought to lawful judgment.~
@@ -22,10 +22,14 @@
 @21   = ~No. I will be both judge and executioner this <DAYNIGHT>.~
 @22   = ~You think yourself worthy? Then prove it with blood.~
 @23   = ~Once, I accepted your aid. That was a courtesy, nothing more.~
-@24   = ~You mistake shared bloodshed for kinship. With the power I will soon gain, I will have no need for companions.~
+@24   = ~You mistake shared bloodshed for kinship.~
 @25   = ~Your ideals of balance mean nothing.~
 @26   = ~From this land's ruin, I will ascend.~
 @27   = ~Every step I have taken, every life I have claimed, has led to this moment. You will bear witness to the culmination of my power.~
 @28   = ~I see you have already gathered the stones needed to open the portal. That leaves only one final, vital component: blood. My own will suffice for the summoning, but yours will serve as the sacrifice that binds the pact.~
 @29   = ~Ur-Gothoz! Come and witness your champion's triumph!~
 @30   = ~Ur-Gothoz falls. No matter. It changes nothing. Azothet, I call upon you, grant me your power!~
+@31   = ~I mistake nothing. There was purpose in your cause once, Dorn, not just needless violence.~
+@32   = ~Then we are both free of any debt. Our fight will be simpler for it.~
+@33   = ~Then you leave me no honourable recourse.~
+@34   = ~So be it. Do not expect further mercy once you fall.~

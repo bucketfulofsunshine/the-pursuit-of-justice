@@ -16,7 +16,7 @@ CHAIN IF ~NumTimesTalkedToLT(1)~ THEN bfdorn bfs.dorn1
   ++ @11 /* Dorn, your bloody path ends here. Surrender and you may yet stand trial. */ EXTERN bfdorn bfs.dorn2 
   ++ @12 /* Murderer! Bollard's injuries, the death of innocents within the Radiant Heart, you will die for your crimes! */ EXTERN bfdorn bfs.dorn6
   ++ @13 /* I admire your ambition, but I don't kneel to rivals. Whatever power you seek to gain will be mine once you're dead. */ EXTERN bfdorn bfs.dorn4
-  ++ @14 /* We travelled together along the Sword Coast, Dorn. But your bloodthirst ends here. */ EXTERN bfdorn bfs.dorn5
+  ++ @14 /* We travelled together along the Sword Coast, Dorn. I did not think it would end like this. */ EXTERN bfdorn bfs.dorn5
   ++ @15 /* This ends one way, Dorn. We can make it quick or messy. */ EXTERN bfdorn bfs.dorn6
   + ~OR(2) Class(Player1,DRUID_ALL) Class(Player1,RANGER_ALL)~ + @16 /* This ritual defiles the gorge. I will seal the portal and restore balance to this land. */ EXTERN bfdorn bfs.dorn7
   + ~Class(Player1,PALADIN_ALL) !Kit(Player1,BLACKGUARD)~ + @17 /* By my oath, I will see you disarmed and brought to lawful judgment. */ EXTERN bfdorn bfs.dorn2 
@@ -28,7 +28,8 @@ CHAIN bfdorn bfs.dorn2
 == BFDORN @20 /* You believe law has meaning but the strong barter in blood. */
 == BFDORN @21 /* No. I will be both judge and executioner this <DAYNIGHT>. */
 END
-IF ~~ EXTERN bfdorn bfs.dorn6
++ ~Class(Player1,PALADIN_ALL) !Kit(Player1,BLACKGUARD)~ + @33 /* Then you leave me no honourable recourse. */ EXTERN bfdorn bfs.dorn6
+++ @34 /* So be it. Do not expect further mercy once you fall. */ EXTERN bfdorn bfs.dorn6
 
 CHAIN bfdorn bfs.dorn4
 @22 /* You think yourself worthy? Then prove it with blood. */
@@ -37,9 +38,12 @@ IF ~~ EXTERN bfdorn bfs.dorn6
 
 CHAIN bfdorn bfs.dorn5
 @23 /* Once, I accepted your aid. That was a courtesy, nothing more. */
-== BFDORN @24 /* You mistake shared bloodshed for kinship. With the power I will soon gain, I will have no need for companions. */
+== BFDORN @24 /* You mistake shared bloodshed for kinship. */
 END
-IF ~~ EXTERN bfdorn bfs.dorn6
+++ @31 /* I mistake nothing. There was purpose in your cause once, Dorn, not just needless violence. */
+EXTERN bfdorn bfs.dorn6
+++ @32 /* Then we are both free of any debt. Our fight will be simpler for it. */
+EXTERN bfdorn bfs.dorn6
 
 CHAIN bfdorn bfs.dorn7
 @25 /* Your ideals of balance mean nothing. */
