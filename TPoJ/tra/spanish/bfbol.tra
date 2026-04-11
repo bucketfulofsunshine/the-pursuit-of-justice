@@ -1,8 +1,8 @@
 @0    = ~Has respondido a mi llamado. Eso habla bien de ti.~
-@1    = ~Soy Bollard Firejaw, paladín del Corazón Radiante, juramentado al servicio de Torm.~
-@2    = ~Veo a sir Keldorn Firecam y a Anomen Delryn entre tu grupo. Su presencia es reconfortante.~
-@3    = ~Sois muy cortés, Bollard Firejaw. Decidnos, ¿cómo podemos serviros?~
-@4    = ~Veo a sir Keldorn Firecam entre tu grupo. Su presencia es reconfortante.~
+@1    = ~Soy Bollard Mandibuego, paladín del Corazón Radiante, juramentado al servicio de Torm.~
+@2    = ~Veo a sir Keldorn Levafuego y a Anomen Delryn entre tu grupo. Su presencia es reconfortante.~
+@3    = ~Sois muy cortés, Bollard Mandibuego. Decidnos, ¿cómo podemos serviros?~
+@4    = ~Veo a sir Keldorn Levafuego entre tu grupo. Su presencia es reconfortante.~
 @5    = ~Veo a Anomen Delryn entre tu grupo. Su presencia es reconfortante.~
 @6    = ~Veo a Anomen Delryn entre tu grupo. Tu elección de compañía me hace dudar. Aun así, la necesidad es grande y no os rechazaré.~
 @7    = ~No debo lealtad a quienes dudan de mi valía. Estoy aquí por insistencia de <CHARNAME> y nada más.~
@@ -29,3 +29,9 @@
 @28   = ~Lo tenía a mi alcance, pero su patrón atacó primero y acabó con la vida de Dorn antes de que yo pudiera asestar el golpe final.~
 @29   = ~Entonces la justicia, en parte, ha sido impartida. Que su propio patrón lo matara demuestra el peligro al que te enfrentaste.~
 @30   = ~Te has ganado mi gratitud, <CHARNAME>. Que esta victoria, por extraña que parezca, nos recuerde que la justicia siempre prevalecerá.~
+@31   = ~Me llamaste porque necesitas que se resuelva un problema. Soy capaz de eso. Habla claramente.~
+@32   = ~¿Y la recompensa por traerlo, qué ofrece la Orden?~
+@33   = ~La Orden se asegurará de que seas compensado por tus esfuerzos. Pago en oro junto con reconocimiento entre aquellos que valoran tales cosas.~
+@34   = ~No pretenderé que me gusta tu manera mercantil, <CHARNAME>, pero nuestra necesidad es grande. Cumple la tarea, eso es todo lo que pido.~
+@35   = ~Entonces, discutamos los detalles. ¿A dónde se ha ido?~
+@36   = ~No veo cómo esto me concierne.~
