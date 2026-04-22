@@ -14,13 +14,13 @@ THEN
         Wait(3)
         FadeToColor([30.0],0)
         Wait(2)
-        LeaveAreaLUAPanicEntry("OH5200","Entry1",[0.0],SW)  // Dorn - Resurrection Gorge Interior
-        LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW)  // Dorn - Resurrection Gorge Interior
-        ActionOverride(Player2,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW))  // Dorn - Resurrection Gorge Interior
-        ActionOverride(Player3,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW))  // Dorn - Resurrection Gorge Interior
-        ActionOverride(Player4,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW))  // Dorn - Resurrection Gorge Interior
-        ActionOverride(Player5,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW))  // Dorn - Resurrection Gorge Interior
-        ActionOverride(Player6,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],SW))  // Dorn - Resurrection Gorge Interior
+        LeaveAreaLUAPanicEntry("OH5200","Entry1",[0.0],2)  // Dorn - Resurrection Gorge Interior
+        LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2)  // Dorn - Resurrection Gorge Interior
+        ActionOverride(Player2,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2))  // Dorn - Resurrection Gorge Interior
+        ActionOverride(Player3,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2))  // Dorn - Resurrection Gorge Interior
+        ActionOverride(Player4,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2))  // Dorn - Resurrection Gorge Interior
+        ActionOverride(Player5,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2))  // Dorn - Resurrection Gorge Interior
+        ActionOverride(Player6,LeaveAreaLUAEntry("OH5200","Entry1",[0.0],2))  // Dorn - Resurrection Gorge Interior
         CreateVisualEffectObject("SPSUMMON",Myself)
         CreateVisualEffectObject("SPSUMMON",Player2)
         CreateVisualEffectObject("SPSUMMON",Player3)
