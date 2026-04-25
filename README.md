@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://64.media.tumblr.com/6801792b829a62bd2ee05929c05c04c9/f83467379c46b182-db/s500x750/aa1579d094abf5b85e783be2dc2022dcf369d260.pnj" />
+  <img src="https://64.media.tumblr.com/2579b67919d557365ec40b56489a98ec/f83467379c46b182-72/s500x750/fcb5bb383b53e1f271ff19806b8e473478b94180.pnj" />
 </p>
 
 # The Pursuit of Justice (for BG2EE)
