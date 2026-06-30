@@ -1,6 +1,6 @@
 BACKUP ~TPoJ/backup~
 SUPPORT ~bucketfulofsunshine~
-VERSION ~beta 0.9~
+VERSION ~1.2~
 
 AUTO_TRA ~TPoJ/tra/%s~
 
