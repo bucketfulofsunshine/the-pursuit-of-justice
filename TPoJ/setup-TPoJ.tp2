@@ -38,6 +38,23 @@ LANGUAGE ~Espanol (By:XsidoGamer)~
 		 ~TPoJ/tra/spanish/bfxach.tra~ 
 		 ~TPoJ/tra/spanish/bfyarr.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~TPoJ/tra/schinese/Journal.tra~
+		 ~TPoJ/tra/schinese/Items.tra~
+		 ~TPoJ/tra/schinese/pcbarks.tra~
+		 ~TPoJ/tra/schinese/bfazoth.tra~
+		 ~TPoJ/tra/schinese/bfbol.tra~
+		 ~TPoJ/tra/schinese/bfdorn.tra~
+		 ~TPoJ/tra/schinese/bfhsen.tra~
+		 ~TPoJ/tra/schinese/bfmes.tra~
+		 ~TPoJ/tra/schinese/bfsumm.tra~
+		 ~TPoJ/tra/schinese/bfver2.tra~ 
+		 ~TPoJ/tra/schinese/bfvern.tra~ 
+		 ~TPoJ/tra/schinese/bfwntrb.tra~
+		 ~TPoJ/tra/schinese/bfxach.tra~ 
+		 ~TPoJ/tra/schinese/bfyarr.tra~
+
 BEGIN ~The Pursuit of Justice~ DESIGNATED 0
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod requires BG2EE or EET~
 
