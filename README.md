@@ -27,10 +27,10 @@ A: I don't have a working EET install & cannot test it myself. To my knowledge, 
 
 ## CREDITS
 
-* [@omegazeroxiii](https://github.com/OmegaZeroXIII) for the spanish translation. 
+* [omegazeroxiii](https://github.com/OmegaZeroXIII) for the spanish translation. 
 * [mephistosatandevil](https://github.com/MephistoSatanDevil) for the chinese translation. 
-* [@kaelyn](https://github.com/szaumoor) for code improvements. <3 
-* [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. & for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
+* [kaelyn](https://github.com/szaumoor) for code improvements. <3 
+* [dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. & for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
 * The lovely folks over on the Beamdog forums who made suggestions on improvements. Particularly [@lavadelvortel / weasel](https://downloads.weaselmods.net/author/admin/) for finding bugs & offering clear solutions. <3
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
 
