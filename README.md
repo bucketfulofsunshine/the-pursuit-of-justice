@@ -8,17 +8,10 @@ This mod offers an alternate path for parties with a reputation of 14 or higher 
 
 In fact, in this alternate version of events, Dorn himself becomes the villain of the story.
 
-**V1.0 adds**
-- Players can access & complete Resurrection Gorge as part of a new questline.
-
 ## FAQ
 ### Q: When does the quest start?
 
 A: You cannot have killed Dorn or let him join the party beforehand. Then, upon reaching the required reputation, a timer will be set & a messenger will arrive two hours later. After speaking with the messenger, the Helmite Camp will unlock on the world map. 
-
-### Q: You mentioned new sidequests before?
-
-A: I've decided to forego adding them. At its core, this mod is about accessing the vanilla Dorn storyline without requiring him as an NPC.
 
 ### Q: EET compatiblity? 
 
@@ -26,7 +19,7 @@ A: I don't have a working EET install & cannot test it myself. To my knowledge, 
 
 ## CHANGELOG
 
-* **20260331** - V1.0 release. 
+* **20260630** - V1.2 release. 
 
 ## LICENSING
 
@@ -35,8 +28,9 @@ A: I don't have a working EET install & cannot test it myself. To my knowledge, 
 ## CREDITS
 
 * [@omegazeroxiii](https://github.com/OmegaZeroXIII) for the spanish translation. 
+* [mephistosatandevil](https://github.com/MephistoSatanDevil) for the chinese translation. 
 * [@kaelyn](https://github.com/szaumoor) for code improvements. <3 
-* [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. And for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
+* [@dark0dave](https://github.com/dark0dave) for being the silent guardian of all my mods on Github. & for figuring out a way to use REPLACE_TEXTUALLY despite the text being used in a setglobal later. You are a wizard!
 * The lovely folks over on the Beamdog forums who made suggestions on improvements. Particularly [@lavadelvortel / weasel](https://downloads.weaselmods.net/author/admin/) for finding bugs & offering clear solutions. <3
 * The usual suspects. Wes Weimer for Weidu & Argent77 for Near Infinity + WeiDU Notepad++ Highlighters. 
 
