@@ -1,0 +1,32 @@
+@2000 = ~Lettre de Bollard Firejaw~
+@2001 = ~<CHARNAME>,
+
+Je vous écris en tant que serviteur de Torm, et comme quelqu'un qui œuvre actuellement de concert avec les fidèles de Heaum. La renommée de votre bravoure est parvenue jusqu'à nous, et les bonnes actions que vous avez accomplies nous réconfortent.
+
+Un meurtre abominable a été commis dans les salles de l'Ordre du Cœur Radieux, mettant à l'épreuve la résolution de tous ceux qui s'opposent aux ténèbres. Les Heaumites ont demandé votre aide dans cette affaire, car nous pensons qu'un groupe restreint et discret aura davantage de chances qu'une armée face à un tel mal.
+
+Vous trouverez ci-joint les indications permettant de rejoindre leur camp. J'ai confiance en votre réponse à cet appel, avec le courage inébranlable dont vous avez fait preuve maintes et maintes fois.
+
+Dans le devoir et la foi,
+Bollard Firejaw~
+
+@2010 = ~Le Visage~
+@2011 = ~Ce masque d'argent représente un visage grotesque déformé par un rictus. Lorsqu'il est porté, ses yeux palpitent d'une lueur rouge sombre quand son porteur parle, ce qui renforce encore son aspect inquiétant. Il vibre de multiples enchantements magiques qui inspirent la peur à tous ceux qui le contemplent.
+
+CARACTÉRISTIQUES :
+
+Capacités d'équipement :
+– TAC0 : +1
+– Jets de sauvegarde : +1
+– Immunité à la débilité mentale, la confusion, la peur et le charme
+– Protège contre les coups critiques
+
+Capacités :
+– Domination, une fois par jour (un jet de sauvegarde contre les sorts à -2 annule l'effet)
+  Durée : 8 rounds
+
+– Souffle acide, une fois par jour
+  Dégâts : 6d6 d'acide (un jet de sauvegarde contre les souffles réduit les dégâts de moitié)
+  La cible doit réussir un jet de sauvegarde contre la mort à -4 ou sombrer dans l'inconscience pendant 2 rounds
+
+Poids : 1~

@@ -55,6 +55,23 @@ LANGUAGE ~Simplified Chinese~
 		 ~TPoJ/tra/schinese/bfxach.tra~ 
 		 ~TPoJ/tra/schinese/bfyarr.tra~
 
+LANGUAGE ~French by Deratiseur~
+         ~french~
+         ~TPoJ/tra/french/Journal.tra~
+		 ~TPoJ/tra/french/Items.tra~
+		 ~TPoJ/tra/french/pcbarks.tra~
+		 ~TPoJ/tra/french/bfazoth.tra~
+		 ~TPoJ/tra/french/bfbol.tra~
+		 ~TPoJ/tra/french/bfdorn.tra~
+		 ~TPoJ/tra/french/bfhsen.tra~
+		 ~TPoJ/tra/french/bfmes.tra~
+		 ~TPoJ/tra/french/bfsumm.tra~
+		 ~TPoJ/tra/french/bfver2.tra~ 
+		 ~TPoJ/tra/french/bfvern.tra~ 
+		 ~TPoJ/tra/french/bfwntrb.tra~
+		 ~TPoJ/tra/french/bfxach.tra~ 
+		 ~TPoJ/tra/french/bfyarr.tra~
+
 BEGIN ~The Pursuit of Justice~ DESIGNATED 0
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod requires BG2EE or EET~
 
